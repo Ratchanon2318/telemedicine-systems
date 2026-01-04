@@ -1,0 +1,9 @@
+
+/* 
+  นำเข้า (import) Tailwind CSS เข้ามาในโปรเจกต์
+  บรรทัดนี้อาจไม่จำเป็นถ้าใช้ Tailwind CLI หรือ PostCSS plugin ที่จัดการให้แล้ว
+  แต่การมีไว้ก็ไม่ส่งผลเสีย
+*/
+@import 'tailwindcss';
+
+
