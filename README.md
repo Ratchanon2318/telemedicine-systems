@@ -1,5 +1,5 @@
 # KPPMCH Patient Register
-**Hospital Digital Transformation Project**
+**Hospital Digital Intake and Pre-Registration System**
 
 ---
 
@@ -7,59 +7,66 @@
 | Category | Detail |
 | :--- | :--- |
 | **Project Name** | KPPMCH Patient Register |
-| **Organization** | Kamphaeng Phet Municipality Community Hospital |
-| **Platform Type** | Patient Intake & Registration Web Application |
+| **Organization** | Kamphaeng Phet Municipality Community Hospital (KPPMCH) |
+| **Primary Framework** | Next.js |
+| **Styling Engine** | Tailwind CSS |
 | **Deployment** | [kppmch-register.vercel.app](https://kppmch-register.vercel.app/PatientRegister) |
 
 ---
 
 ### Technical Infrastructure
-| Component | Technology |
-| :--- | :--- |
-| **Core Framework** | Next.js (App Router), React |
-| **Styling Engine** | Tailwind CSS |
-| **Deployment Platform** | Vercel |
-| **Architectural Pattern** | Clean Architecture |
-| **Integrations** | RESTful API, LINE Messaging API |
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend Framework** | Next.js (App Router) | High-performance React framework for server-side processing |
+| **Styling Strategy** | Tailwind CSS | Utility-first CSS for rapid and responsive UI development |
+| **Deployment Platform** | Vercel | Global CDN hosting with automated CI/CD pipelines |
+| **Data Validation** | Client-side & Server-side | Ensuring integrity of patient personal information |
+| **Architecture** | Component-Based | Scalable design for future integration with HIS systems |
 
 ---
 
-### Functional Impact
-| Focus Area | Objective and Result |
+### Operational Impact & Objectives
+| Area | Objective and Result |
 | :--- | :--- |
-| **Digitization** | Replaced legacy paper registration with 24/7 digital intake. |
-| **Workflow Efficiency** | Reduced patient waiting time at physical counters. |
-| **Data Integrity** | Enhanced data accuracy via client-side validation. |
-| **Modernization** | Improved hospital accessibility through mobile-first design. |
+| **Wait Time Reduction** | Minimized physical counter queues by enabling remote registration. |
+| **Digitization** | Successfully transitioned from manual paper forms to digital intake. |
+| **Workflow Efficiency** | Streamlined administrative processes for hospital medical records staff. |
+| **Accessibility** | Provided a 24/7 mobile-friendly registration portal for all patients. |
 
 ---
 
-### System Features
-| Feature | Description |
+### Functional Modules
+| Module | Responsibility |
 | :--- | :--- |
-| **Online Registration** | Remote personal information submission before arrival. |
-| **Responsive Design** | Optimized for mobile, tablet, and desktop browsers. |
-| **Security** | Production-ready environment with SSL/HTTPS encryption. |
-| **Modularity** | Developed for seamless integration with Future HIS systems. |
+| **Pre-Registration Portal** | Secure interface for patient data entry before arrival. |
+| **Validation System** | Real-time checks to prevent erroneous or incomplete submissions. |
+| **Responsive UI** | Seamless user experience across smartphones, tablets, and desktops. |
+| **Submission Handler** | Efficient transmission of data to secure hospital endpoints. |
 
 ---
 
-### Installation Guide
-| Action | Command |
-| :--- | :--- |
-| **Clone Repository** | `git clone https://github.com/Ratchanon2318/kppmch-register.git` |
-| **Install Dependencies** | `npm install` |
-| **Run Development** | `npm run dev` |
+### System Implementation
+| Step | Action | Command |
+| :--- | :--- | :--- |
+| 1 | **Clone Repository** | `git clone https://github.com/Ratchanon2318/kppmch-patient-register.git` |
+| 2 | **Install Dependencies** | `npm install` |
+| 3 | **Production Build** | `npm run build` |
+| 4 | **Execute Development** | `npm run dev` |
 
 ---
 
-### Contact & Professional Profile
+### License Specification
+| Attribute | Detail |
+| :--- | :--- |
+| **License Type** | MIT License |
+| **Copyright Holder** | Ratchanon Noknoy |
+| **Standard Notice** | Permission grant and liability limitation for software usage |
+
+---
+
+### Professional Contact
 | Channel | Detail |
 | :--- | :--- |
 | **Software Engineer** | Ratchanon Noknoy |
 | **LinkedIn** | [linkedin.com/in/ratchanon-noknoy](https://www.linkedin.com/in/ratchanon-noknoy/) |
-| **GitHub** | [github.com/Ratchanon2318](https://github.com/Ratchanon2318) |
 | **Portfolio** | [ratchanonnoknoy.vercel.app](https://ratchanonnoknoy.vercel.app/) |
-| **Alternative Site** | [ratchanon-portfolio.onrender.com](https://ratchanon-portfolio.onrender.com/) |
-
----
